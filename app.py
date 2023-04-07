@@ -14,4 +14,4 @@ y = st.number_input("Input Number 2:", value=0.0000, step=0.01)
 z = st.number_input("Input Number 3:", value=0.0000, step=0.01)
 
 
-st.write(f'The Maximum of these values is:  {max(x, y, z)}')
+st.write(f'The Maximum of these values is:  {max(x, y, z).2f}')
