@@ -1,1 +1,1 @@
-web: sh setup.sh && tds_week_8 run app.py
+web: sh setup.sh && streamlit run app.py
